@@ -1,0 +1,145 @@
+*,
+*::before,
+*:after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header-wrap {
+    top: 0;
+    position: sticky;
+    background-color: #fff;
+    z-index: 15;
+}
+
+.header-row {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+}
+
+.header-row-socials {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header-row-socials-item {
+    margin-right: 7px;
+}
+
+.header-row-socials-item:last-child {
+    margin-right: 0;
+}
+
+.header-row-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.equity-wrap {
+    background-color: #2ECC71;
+}
+
+.equity-title {
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 71px;
+    color: #FFFFFF;
+}
+
+.equity-description {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    color: #FFFFFF;
+}
+
+.securities-header-title {
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 61px;
+    color: #000000;
+}
+
+.securities-header-description {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 34px;
+    color: #000000;
+}
+
+.securities-list-card {}
+
+.securities-list-card-title {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 41px;
+    color: #000000;
+}
+
+.securities-list-card-description {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: center;
+    color: #000000;
+}
+
+.quote-wrap {
+    text-align: center;
+    background-color: #252525;
+    height: 181px;
+}
+
+.quote {
+    position: relative;
+    top: 20%;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    color: #2FCC71;
+}
+
+.products-block-title {
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 61px;
+    color: #000000;
+}
+
+.products-title {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    color: #252525;
+    transition: 0.2s;
+}
+
+.products-title:hover {
+    color: #2FCC71;
+}
+
+.products-description {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+    color: #000000;
+}

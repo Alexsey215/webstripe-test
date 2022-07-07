@@ -56,6 +56,11 @@ body {
 
 .equity-wrap {
     background-color: #2ECC71;
+
+}
+
+.equity {
+    height: 79vh;
 }
 
 .equity-title {
@@ -189,4 +194,9 @@ body {
     font-size: 18px;
     line-height: 25px;
     color: #000000;
+}
+
+.footer-logo {
+    position: relative;
+    left: -71px;
 }
